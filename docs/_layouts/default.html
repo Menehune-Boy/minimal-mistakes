@@ -18,7 +18,8 @@
     {% include_cached skip-links.html %}
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-
+     <div id="customgpt_chat"></div>
+      <script src="https://cdn.customgpt.ai/js/embed.js" div_id="customgpt_chat" p_id="9485" p_key="519c7476f24a28723c5cb9ce7f505335" width="100%" reset_conversation="1" height="500px"></script>
     <div class="initial-content">
       {{ content }}
       <div align="center" style="margin: 1em 0;">
@@ -44,7 +45,7 @@
       </footer>
     </div>
 
-    {% include scripts.html %}
+    {% include scripts.html %}  
     <style>
       .google-auto-placed {
         margin: 2em auto;
